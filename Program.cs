@@ -17,7 +17,11 @@
        if (set!= "Breakfast set" && set!= "Weekend set" && set!= "Coffee" && set!= "End")
        {
         Console.WriteLine("What would you like to have?");
-        
+        continue;
+       }
+       if (set == "Breakfast set")
+       {
+        if (breakfast == 0 || )
        }
 
     }

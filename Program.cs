@@ -21,10 +21,40 @@
        }
        if (set == "Breakfast set")
        {
-        if (breakfast == 0 || )
+        if (breakfast == 0 || time > 11)
+        {
+            Console.WriteLine("Unable to purchase this available");
+            continue;
+        }
+        else
+        breakfast = breakfast - 1;
        }
-
+       if (set == "coffee")
+       {
+        if (coffee == 0)
+        {
+            Console.WriteLine("Unable to purchase this available");
+            continue;
+        }
+        else
+        coffee--;
+       }
+if (set == "Weekend Set")
+{
+    if((day >= 1 && day <= 5) || weekend == 0)
+    {
+        Console.WriteLine("Unable to purchase this available");
+        continue;
     }
+    else
+    weekend--;
+}
+if (set == "End")
+{
+    break;
+}
+    }
+    Console.ReadLine();
 
    }
 

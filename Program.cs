@@ -11,7 +11,7 @@
 
     while (true)
     {
-       Console.Write("command :");
+       Console.WriteLine("command :");
        set = Console.ReadLine();
 
        if (set!= "Breakfast set" && set!= "Weekend set" && set!= "Coffee" && set!= "End")
